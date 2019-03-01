@@ -17,22 +17,22 @@ Custom element created with Angular for manage the file input.
     
     ## Element attribute 
     
-    * <strong>multiple:</strong> Must pass a boolean (true/false) for enable or disable manage multiple files
+    * <strong>multiple:</strong> Must pass a boolean (true/false) for enable or disable manage multiple files<br>
       default :false
     
-    * <strong>accept:</strong> Here you can pass limit to the type of the files type like just image or document(image/* or only a single extension .txt or even all *)  
+    * <strong>accept:</strong> Here you can pass limit to the type of the files type like just image or document(image/* or only a single extension .txt or even all *) <br> 
       default : * (all)
       
-     * <strong>message:</strong> Must pass a string there will be the message showed in the element ('drop files here')
+     * <strong>message:</strong> Must pass a string there will be the message showed in the element ('drop files here')<br>
       default : ''
       
-     * <strong>onfiledrop:</strong> this must pass a function this will be the callback every time a files is dropped or added to the           element
-     example :
-      JS :
-      var myfunction = function(files){
-        console.log("files dropped",files)
-        }
-        HTML:
-        onfiledrop="myfunction"
-      default : null
+     * <strong>onfiledrop:</strong> this must pass a function this will be the callback every time a files is dropped or added to the           element<br>
+     example :<br>
+      JS :<br>
+      var myfunction = function(files){<br>
+        console.log("files dropped",files)<br>
+        }<br>
+        HTML:<br>
+        onfiledrop="myfunction"<br>
+      default : null<br>
         
