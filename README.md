@@ -35,5 +35,7 @@ Custom element created with Angular for manage the file input.
         HTML:<br>
         onfiledrop="myfunction"<br>
       default : null<br>
-        #example
+      
+#example
+        
 <img src="https://raw.githubusercontent.com/MttEsposito/cool-drop-file/master/src/assets/example.PNG"/>
